@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#links {
+    position: fixed;
+}
+
+ul {
+    position: absolute;
+    left: 1200px;
+    list-style: none;
+}
+
+li {
+    color: blue;
+    font-family: sans-serif;
+    padding: 10px;
+    display: inline-block;   
+}
+
+li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.home_main {
+    color: white;
+    background: black;
+    text-align: center;
+}
+
+#title {
+    font-size: 48px;
+    background: -webkit-linear-gradient(#FF512F, #DD2476);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
+}
+
+label {
+    font-family: sans-serif;
+}
+
+li a:hover {
+    font-size: 19px;
+    text-decoration: underline;
+    transition: ease-in-out;
+}
+
+#about {
+    text-align: center;
+}
+
+#about_title {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#about_line {
+    width: 50px;
+    background-color: black;
+    height: 3px;
+    margin: 8px auto;
+}
+
+#about_main {
+    font-family: 'Comic Neue', cursive;
+    font-size: 22px;
+    font-style: oblique;
+}
+
+#book {
+    text-align: center;
+}
+
+.title_book {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.line_book {
+    width: 50px;
+    background-color: black;
+    height: 3px;
+    margin: 8px auto;
+}
+
+#book_img {
+    width: 200px;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+#wiki_book {
+    width: 750px;
+    height: 425px;
+}
+
+#Inspiration {
+    text-align: center;
+}
+
+#Inspiration_Title {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#Inspiration_line {
+    margin: 8px auto;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+
+#Inspiration_img {
+    width: 200px;
+}
+
+#img_text {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact_title {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#contact_line {
+    margin: 8px auto;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+
+#contact_main a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact_main a:hover {
+    text-decoration: underline;
+}
